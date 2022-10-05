@@ -1,0 +1,83 @@
+    body{
+        padding: 0;
+        margin: 0;
+        color: hsl(228, 12%, 48%);
+        background-color: hsl(30, 38%, 92%);
+      }
+
+      #pc-img{
+        display: none;
+    }
+
+    #mobile-img{
+        height: 50%;
+        width: 100%;
+      }
+
+      h1{
+        font-family: 'Fraunces', serif;
+        font-weight: 700;
+        color: black;
+      }
+      
+      h4{
+        font-family: 'Montserrat';
+        font-weight: 100;
+        font-size: 14px;
+      }
+
+
+      .card{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .card-item{
+        overflow: hidden;
+        background-color: #fff;
+        border-radius: 20px;
+        height: 95%;
+        width: 80vw;
+        margin: 44px auto;
+      }
+
+      .info{
+        box-sizing: border-box;
+        padding: 0px 20px 20px 10px;
+        overflow-wrap: break-word;
+      }
+
+      p{
+        font-size: 14px;
+      }
+
+      .first{
+        color:hsl(158, 36%, 37%);
+        font-family: 'Fraunces', serif;
+        font-weight: bolder;
+        font-size: 2rem;
+        padding-right: 17px;
+      }
+
+      .btn{
+        background-color: hsl(158, 36%, 37%) ;
+        border: none;
+        font-weight:700;
+        font-size: 16px;
+        border-radius: 10px;
+        height: 2.7rem;
+        width: 100%;
+        color: #fff;
+        margin-top: 20px;
+        padding: auto;
+      }
+      .btn:hover{
+        cursor: pointer;;
+        background-color: hsl(212, 21%, 14%);
+      }
+    
+      .cart{
+        padding-right: 10px;
+      }
+    
